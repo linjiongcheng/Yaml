@@ -92,7 +92,7 @@ definitions:
       rain3h:
         type: "number"
         format: "double"
-    x-java-class: "com.service.forecast.entity.objective.DateListItem"
+    x-java-class: "com.service.forecast.entity.objective1.DateListItem"
   ForecastSummary:
     type: "object"
     properties:
@@ -113,4 +113,4 @@ definitions:
       currentTime:
         type: "integer"
         format: "int64"
-    x-java-class: "com.service.forecast.entity.objective.ForecastSummary"
+    x-java-class: "com.service.forecast.entity.objective2.ForecastSummary"
