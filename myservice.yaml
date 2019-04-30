@@ -11,7 +11,7 @@ produces:
 paths:
   /test:
     get:
-      operationId: "show"
+      operationId: "test"
       produces:
       - "application/json"
       parameters:
