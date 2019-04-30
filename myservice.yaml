@@ -9,6 +9,21 @@ consumes:
 produces:
 - "application/json"
 paths:
+  /test:
+    get:
+      operationId: "show"
+      produces:
+      - "application/json"
+      parameters:
+      - name: "city"
+        in: "query"
+        required: false
+        type: "string"
+      responses:
+        200:
+          description: "response of 200"
+          schema:
+            $ref: "#/definitions/ForecastSummary"
   /show:
     get:
       operationId: "show"
