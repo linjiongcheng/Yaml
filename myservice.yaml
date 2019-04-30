@@ -48,6 +48,14 @@ paths:
           schema:
             $ref: "#/definitions/MultiResponse"
 definitions:
+  MultiResponse:
+    type: "object"
+    properties:
+      code:
+        type: "integer"
+      message:
+        type: "string"
+    x-java-class: "com.service.forecast.entity.util.MultiResponse"
   DateListItem:
     type: "object"
     properties:
