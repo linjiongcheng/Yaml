@@ -40,7 +40,7 @@ paths:
           schema:
             $ref: "#/definitions/ForecastSummary"
   /extra:
-    post:
+    get:
       operationId: "extra"
       produces:
       - "application/json"
